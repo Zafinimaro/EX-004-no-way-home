@@ -1,0 +1,97 @@
+@font-face {
+    font-family: toihir;
+    src: url(/Assets/Far-From\ Homecoming\ Updated.otf);
+}
+body{
+    margin: Opx;
+    padding: 0px;
+}
+/* barre de navigation */
+header{
+    background-color: #B11313;
+    padding: 10px;
+}
+h1{
+    font-family: toihir;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.him{
+    margin-left: 100px;
+    text-decoration: none;
+    color: #ffff;
+}
+/* corps */
+.Home{
+    background-image: url(/Assets/Illustration/img1.png);
+    padding-top: 590px;
+}
+.home{
+    background-color: #B11313;
+    display: flex;
+    text-align: center;
+}
+.btn{
+    border-radius: 15px;
+    height: 40px;
+    width: 120px;
+    background-color: #ffff;
+    color: #B11313;
+    text-align: center;
+}
+.btn1{
+    border-radius: 15px;
+    height: 40px;
+    width: 120px;
+    background-color: #b1131349;
+    padding-top: 10px;
+    text-align: center;
+}
+.hom{
+    background-color: #114C92;
+}.moi{
+    border-radius: 20px;
+    height: 20px;
+    width: 280px;
+    margin-left: 70px;
+}
+.mou{
+    border-radius: 20px;
+    margin-left: 130px;
+    height: 50px;
+    width: 160px;
+    background-color: #114C92;
+}
+.mix{
+    height: 20px;
+    width: 280px;
+    border-radius: 20px;
+    background-color: #B11313;
+}
+.mot{
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+}
+.form-check-box{
+    margin-left: 10px;
+}
+/* pied */
+footer{
+    background-color: #000;
+}
+.row a{
+    text-decoration: none;
+    color: #ffff;
+}
+.col-md-12{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.way img{
+    background-color: #B11313;
+    border-radius: 50px;
+}

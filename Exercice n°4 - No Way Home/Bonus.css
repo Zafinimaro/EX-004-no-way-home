@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* barre de navigation */
+header{
+    background-color: #B11313;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.him{
+    margin-left: 100px;
+    text-decoration: none;
+    color: #ffff;
+}
+/* corps */
+.bonus{
+    background-image: url(/Assets/Illustration/img35.png);
+    padding: 10px;
+    padding-top: 600px;
+    color: #ffff;
+}
+/* pied */
+footer{
+    text-align: center;
+    background-color:#000;
+}
+.row a{
+    text-decoration: none;
+    color: #ffff;
+}
+.col-md-12{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.way img{
+    background-color: #B11313;
+    border-radius: 50px;
+}

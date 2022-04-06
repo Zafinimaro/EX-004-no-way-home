@@ -1,0 +1,80 @@
+@font-face{
+    font-family: toihir;
+    src: url(/Assets/Far-From\ Homecoming\ Updated.otf);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #B11313;
+    padding: 10px;
+}
+#bdn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 30px;
+}
+/* corps */
+h1{
+    font-family: toihir;
+}
+.container-fluid{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.home img{
+    transform: scaleX(-1);
+}
+.btc{
+    background-color: #B11313;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    margin: 5px;
+}
+.boit{
+    margin: 150px;
+}
+.m{
+    background-color: #114C92;
+    border-radius: 20px;
+    height: 70px;
+    width: 200px;
+    margin: 50px;
+    color: #ffff;
+}
+/* pied */
+footer{
+    text-align: center;
+}
+.no{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.no a {
+    text-decoration: none;
+    color: #ffff;
+}
+.way img {
+    background-color:red ;
+    border-radius: 50px;
+}
+footer p {
+    color: #ffff;
+}
+
+
+@media (width-max:500px){
+    .him{
+        display: none;
+    }
+}
